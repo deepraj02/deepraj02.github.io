@@ -840,11 +840,11 @@ section {
   margin-bottom: 40px;
 }
 .testimonial-img {
-  max-width: 60%;
+  max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   
 }
 .testimonials .testimonial-item p {
