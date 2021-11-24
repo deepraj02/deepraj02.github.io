@@ -313,7 +313,7 @@
 }
 
 .timeline li .details {
-    background-color: #f4f5f8;
+    background-color: #d7dff5;
     margin-top: 8px;
     padding: 20px;
     border-radius: 4px;
@@ -340,6 +340,7 @@
     color: #1b1d20;
     z-index: 10;
     overflow: hidden;
+    background:rgba(196, 197, 174, 0.2)
 }
 
 .page-home {
