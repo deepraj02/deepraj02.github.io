@@ -1426,3 +1426,21 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.skillBlocks{
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+  }
+  .skillBlock{
+    padding: .5rem;
+    border: 2px solid var(--theme-orange);
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 13px;
+    height: fit-content;
+  }
+  .skillBlock:hover{
+    border: 3px solid var(--theme-orange);
+    font-weight: 500;
+  }
