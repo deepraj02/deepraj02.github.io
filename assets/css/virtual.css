@@ -1434,13 +1434,15 @@ a:hover, a:active {
   }
   .skillBlock{
     padding: .5rem;
-    border: 2px solid var(--theme-orange);
-    border-radius: 15px;
     width: fit-content;
     font-size: 13px;
     height: fit-content;
+    background-color: rgb(101, 101, 101);
+    color: white;
+    font-weight:500;
+    transition: .3s;
   }
   .skillBlock:hover{
-    border: 3px solid var(--theme-orange);
-    font-weight: 500;
+    font-size: 14px;
+    background-color: var(--theme-red);
   }
