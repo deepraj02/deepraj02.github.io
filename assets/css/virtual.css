@@ -1431,16 +1431,18 @@ a:hover, a:active {
     display: flex;
     gap: .75rem;
     flex-wrap: wrap;
+    align-items: center;
   }
   .skillBlock{
     padding: .5rem;
     width: fit-content;
-    font-size: 13px;
+    font-size: 15px;
     height: fit-content;
     background-color: rgb(101, 101, 101);
     color: white;
     font-weight:500;
     transition: .3s;
+    border-radius: 0.25rem;
   }
   .skillBlock:hover{
     font-size: 14px;
